@@ -46,7 +46,7 @@ void main() async {
     List<User> usuariosFiltrados = userUsername(users);
     print('Usuarios con username de mas de 6 caracteres:');
     for(var user in usuariosFiltrados) {
-      print('Nombre de Usuario: ${user.username}, Nombre: (${user.name})');
+      print('Nombre de Usuario: ${user.username} | Nombre: (${user.name})');
     }
 
     int contador = usersWithBiz(users);
